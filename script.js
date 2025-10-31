@@ -142,3 +142,11 @@ function getBooks() {
 function getBook(id) {
   return data.find((d) => d.id === id);
 }
+const book = getBook(4);
+const author = book.author;
+
+console.log(author); // J. K. Rowling
+
+export { getBooks, getBook, author };
+
+
