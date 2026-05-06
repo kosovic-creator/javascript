@@ -1,23 +1,16 @@
-// const broj = 10.9;
-//  x = broj.toString();
-// const x = broj.toFixed(2);
-// x=broj.toFixed(2);
-// x=broj.toPrecision(8);
-// x=broj.toFixed(0);
-// x=Math.round(broj);
-// x = Math.floor(broj);
-//const str = "heloo world      ";
-//x = str
-// x = str.toUpperCase();
-// str.trimStart(2);
-// str.trimEnd(6);
-//  x = str.trim();
+let sve
+const voće = ["jabuka", "banana", "kruška", "naranča", "grožđe"];
+const povrće = ["mrkva", "krastavac", "rajčica", "paprika"];
+voće.push(povrće);
+sve = voće;
+console.log(sve);
+sve = voće.concat(povrće);
+console.log(sve);
 
-const x = 100 === "100";
-// const y = 100
-// x+=y;
+const sve2 = [...voće, ...povrće, "kupus"];
+console.log("spreed operator:  ", sve2);
 
-// x-=y;
-// x*=y;
-// x/=y;
+let arr = [1, 2, 3, 4];
+let x = arr.splice(2, 1);
+x = arr;
 console.log(x);
