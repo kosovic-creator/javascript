@@ -1,16 +1,12 @@
-let sve
+let x
 const voće = ["jabuka", "banana", "kruška", "naranča", "grožđe"];
 const povrće = ["mrkva", "krastavac", "rajčica", "paprika"];
 voće.push(povrće);
-sve = voće;
-console.log(sve);
-sve = voće.concat(povrće);
-console.log(sve);
+x = voće;
+console.log("push: ", x);
+x = voće.concat(povrće);
+console.log("concat: ", x);
+//spreed operator dodatkupus u niz
+const x3 = [...voće, ...povrće, "kupus"];
+console.log("spreed operator:  ", x3);
 
-const sve2 = [...voće, ...povrće, "kupus"];
-console.log("spreed operator:  ", sve2);
-
-let arr = [1, 2, 3, 4];
-let x = arr.splice(2, 1);
-x = arr;
-console.log(x);
