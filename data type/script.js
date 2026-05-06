@@ -1,10 +1,12 @@
 const broj = 10.9;
  x = broj.toString();
- console.log(x);
+ console.log("ToString: ", x);
 
  const fix = broj.toFixed(2);
- console.log(fix);
+ console.log("fix: ", fix);
 
+  const fix1 = broj.toPrecision(8);
+ console.log("Precision: ", fix1);
 // x=broj.toPrecision(8);
 // console.log(x);
 // x=broj.toPrecision(8);
