@@ -1,41 +1,45 @@
-const broj = 10.9;
- x = broj.toString();
- console.log("ToString: ", x);
+// const broj = 10.9;
+// x = broj.toString();
+// console.log("ToString: ", x);
 
- const fix = broj.toFixed(2);
- console.log("fix: ", fix);
+// const fix = broj.toFixed(2);
+// console.log("fix: ", fix);
 
-  const fix1 = broj.toPrecision(8);
- console.log("Precision: ", fix1);
+// const fix1 = broj.toPrecision(8);
+// console.log("Precision: ", fix1);
 // x=broj.toPrecision(8);
 // console.log(x);
 // x=broj.toPrecision(8);
 // x=broj.toFixed(0);
 // x=Math.round(broj);
 // x = Math.floor(broj);
-//const str = "heloo world      ";
-//x = str
-// x = str.toUpperCase();
-// str.trimStart(2);
+// const str = "heloo world      ";
+//  x = str
+//  x = str.toUpperCase();
+// x= str.trimStart(5);
 // str.trimEnd(6);
 //  x = str.trim();
+// console.log(`"${x}"`);
 
 // const x = 100 === "100";
-// const y = 100
-// x+=y;
+
+// let y = 5;
+// y++;
+// console.log(y);
 
 // x-=y;
 // x*=y;
 // x/=y;
 // x = 10;
 // x++;
+
 // const x = [10, 20, 30];
 // y = x[2] + x[0];
 // y = `sad je ${x[2]} koliko`
 // console.log(y);
-// let text = "jabuka-banana-pomorandza";
-// text
-// let rezultat = text.split("-");
+let text = "jabuka-banana-pomorandza";
+let rezultat = text.split("-");
+console.log(rezultat); // Output: ["jabuka", "banana", "pomorandza"]
 // rezultat = text.split("-", 2);
 // rezultat
 // const d = Date.now();
