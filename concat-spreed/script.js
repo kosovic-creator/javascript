@@ -9,4 +9,6 @@ console.log("concat: ", x);
 //spreed operator dodatkupus u niz
 const x3 = [...voće, ...povrće, "kupus"];
 console.log("spreed operator:  ", x3);
-
+//rest operator
+const x4 = ["krompir", ...povrće];
+console.log("rest operator:  ", x4);

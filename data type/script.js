@@ -98,8 +98,8 @@ console.log(rezultat); // Output: ["jabuka", "banana", "pomorandza"]
 // x = niz.slice(2);
 // console.log(x);
 // console.log(niz);
-// splace_niz = [10, 20, 30, 40, 50];
-//uklanja elemente od indeksa od indexa1(1 ide u niz)dva elementa(20,30) elementa mijenja originalnog niza
-// x = splace_niz.splice(1, 2);
-// splace_niz
-// console.log(splace_niz);
+splace_niz = [10, 20, 30, 40, 50];
+// uklanja elemente od indeksa 1 (1 ide u niz) dva elementa (20,30) mijenja originalnog niza
+x = splace_niz.splice(1, 2);
+splace_niz
+console.log(splace_niz);
